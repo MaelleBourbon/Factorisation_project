@@ -51,6 +51,7 @@ Pour exécuter ce notebook, les bibliothèques suivantes sont nécessaires :
 
 ```bash
 pip install pandas numpy sentence-transformers cornac tqdm matplotlib
+```
 
 
 ---
