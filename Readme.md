@@ -7,9 +7,9 @@ L'objectif est de prédire les préférences des utilisateurs en exploitant à l
 
 ## Description
 
-Le projet utilise le jeu de données **Toys and Games** d'Amazon. 
-- [Toys_and_Games.jsonl.gz]( )  
-- [meta_Toys_and_Games.jsonl.gz]( ) (métadonnées des items : title, description, features, categories)
+Le projet utilise le jeu de données **Toys and Games** d'Amazon (https://amazon-reviews-2023.github.io/#grouped-by-category). 
+- [Toys_and_Games.jsonl.gz](https://amazon-reviews-2023.github.io/#for-user-reviews))  
+- [meta_Toys_and_Games.jsonl.gz](https://amazon-reviews-2023.github.io/#for-item-metadata) (métadonnées des items : title, description, features, categories)
 
 > Note : Ces fichiers sont compressés au format `.jsonl.gz`. Les colonnes importantes pour le projet sont précisées dans le script `main.py`.
  
@@ -47,7 +47,7 @@ Nous utilisons la bibliothèque **Cornac** pour comparer trois types de modèles
 
 ## Installation
 
-Pour exécuter ce notebook, les bibliothèques suivantes sont nécessaires :
+Pour exécuter ce script python, les bibliothèques suivantes sont nécessaires :
 
 ```bash
 pip install pandas numpy sentence-transformers cornac tqdm matplotlib
@@ -64,6 +64,6 @@ Scores après l'exécution finale du code :
 
 | Modèle | Recall@10 | NDCG@10 |
 |--------|-----------|---------|
-| PMF    | 0.XXXX    | 0.XXXX  |
-| BPR    | 0.XXXX    | 0.XXXX  |
-| VBPR   | 0.XXXX    | 0.XXXX  |
+| PMF    | 0.0086    | 0.0062  |
+| BPR    | 0.0063    | 0.0037  |
+| VBPR   | 0.0197    | 0.0124  |
