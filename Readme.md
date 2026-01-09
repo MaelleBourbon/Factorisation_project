@@ -8,7 +8,7 @@ L'objectif est de prédire les préférences des utilisateurs en exploitant à l
 ## Description
 
 Le projet utilise le jeu de données **Toys and Games** d'Amazon (https://amazon-reviews-2023.github.io/#grouped-by-category). 
-- [Toys_and_Games.jsonl.gz](https://amazon-reviews-2023.github.io/#for-user-reviews))  
+- [Toys_and_Games.jsonl.gz](https://amazon-reviews-2023.github.io/#for-user-reviews)
 - [meta_Toys_and_Games.jsonl.gz](https://amazon-reviews-2023.github.io/#for-item-metadata) (métadonnées des items : title, description, features, categories)
 
 > Note : Ces fichiers sont compressés au format `.jsonl.gz`. Les colonnes importantes pour le projet sont précisées dans le script `main.py`.
